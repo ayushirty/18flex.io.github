@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: wheat;
+    
+}
+.header{
+    text-align: center;
+    padding: 20px;
+}
+.flex-container{
+   
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+   flex-wrap: wrap;
+   margin: auto;
+    
+}
+.flex-element{
+   /* border: 2px solid black;*/
+   column-gap: 30px;
+   row-gap: 30px;
+ 
+}
+.zoom:hover{
+    cursor: pointer;
+    height: 500px;
+    width: 500px;
+}
+img:hover{
+    height: 500px;
+    width: 500px;
+}
+
